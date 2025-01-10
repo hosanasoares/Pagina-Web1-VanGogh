@@ -8,50 +8,112 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #4DB6E5, #1A1A40);
             color: white;
+            background: rgb(126,219,255);
+            background: linear-gradient(90deg, rgba(126,219,255,1) 0%, rgba(0,0,17,1) 49%); 
         }
 
         header {
+            position: relative;
             text-align: center;
-            padding: 50px 0;
-            font-size: 48px;
-            font-family: 'Georgia', serif;
         }
+
+        header img {
+            width: 100%;
+            height: 600px;
+            object-fit:cover;
+            opacity: 60%;
+           
+        }
+
+        .title {
+            position: absolute;
+            top: 200px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 200px;
+            font-weight: bold;
+            font-family: Snell Roundhand, cursive;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        
 
         nav {
             display: flex;
-            justify-content: center;
-            background-color: #0F0F2E;
-            padding: 10px 0;
+            background-color: #000a2a;
+            padding: 10px;
+            display: flex;
+            margin-top: -5px;
+            justify-content: space-between;
+           
+            
         }
 
         nav a {
             color: white;
             text-decoration: none;
             margin: 0 15px;
-            font-size: 18px;
+            padding-left: -30px;
+            font-size: 1.2em;
+            position: relative;
+            margin-left: 100px;
+            margin-right: 95px;
+            transition: transform 0.3s ease;
         }
 
         nav a:hover {
             text-decoration: underline;
+            transform: translateY(-5px);
         }
 
-        section {
+        main {
             padding: 20px;
-            text-align: center;
-        }
-
-        section h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        section p {
-            font-size: 18px;
-            line-height: 1.6;
-            max-width: 800px;
+            max-width: 1200px;
             margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            font-size: 4em;
+            margin-bottom: 10px;
+            margin-left: 150px ;
+        }
+
+        .text{
+            justify-content: center;
+            align-items: center; 
+            
+           
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .image {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .image img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #000a2a;
+            text-align: center;
+            padding: 1px;
+            position: relative;
+            color: white;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -60,19 +122,33 @@
         <img src="img/noite-estrelada.gif">
         <h1 class="title">Van Gogh</h1>
     </header>
+
     <nav>
-        <a href="#biografia">Biografia</a>
-        <a href="#trabalhos">Trabalhos</a>
-        <a href="#museu">Museu</a>
-        <a href="#curiosidades">Curiosidades</a>
+        <a href="pages/biografia.html">Biografia</a>
+        <a href="pages/trabalhos.html">Trabalhos</a>
+        <a href="pages/museu.html">Museu</a>
+        <a href="pages/curiosidades.html">Curiosidades</a>
     </nav>
-    <section id="biografia">
-        <h1>Explorando o Mundo da Arte</h1>
-        <p>
-            Conheça Vincent van Gogh, um dos maiores e mais emocionantes artistas da história! Suas obras, como 
-            "A Noite Estrelada", "Os Girassóis" e "O Quarto de Van Gogh em Arles", são um convite a mergulhar em um 
-            mundo de cores vibrantes e emoções intensas.
-        </p>
-    </section>
+
+    <diV class="background">
+
+    </diV>
+    
+    <main>
+        <section id="biografia" class="section">
+            <h2 class="text">Explorando o Mundo da Arte</h2>
+            <div class="image">
+                <img src="img/van-gogh2.png" alt="Retrato de Van Gogh">
+                <p>Conheça Vincent van Gogh, um dos maiores e mais emocionantes artistas da história! Suas obras, como "A Noite Estrelada", "Os Girassóis" e "O Quarto de Van Gogh em Arles", são um convite a mergulhar em um mundo de cores vibrantes e emoções intensas. Embora tenha vivido uma vida curta e cheia de desafios, Van Gogh deixou um legado que transformou a arte para sempre.
+                    Neste site, você poderá explorar mais sobre sua vida fascinante, as pinturas que conquistaram o mundo e a jornada de um homem que, apesar das dificuldades, conseguiu criar uma obra-prima a cada pincelada. Venha conhecer o impacto de Van Gogh e descobrir como suas emoções e experiências pessoais se refletem em sua arte. Não perca a oportunidade de conhecer de perto o universo de um dos maiores mestres da pintura!</p>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Página dedicada a Vincent Van Gogh</p>
+    </footer>
 </body>
 </html>
