@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu de Van Gogh</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: rgb(126,219,255);
+            background: linear-gradient(90deg, rgba(126,219,255,1) 0%, rgba(0,0,17,1) 49%); 
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+        }
+
+        header img {
+            width: 100%;
+            height: 600px;
+            object-fit:cover;
+            opacity: 60%;
+           
+        }
+
+        .title {
+            position: absolute;
+            top: 200px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 200px;
+            font-weight: bold;
+            font-family: Snell Roundhand, cursive;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        
+
+        nav {
+            display: flex;
+            background-color: #000a2a;
+            padding: 10px;
+            display: flex;
+            margin-top: -5px;
+            justify-content: space-between;
+            
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding-left: -30px;
+            font-size: 1.2em;
+            position: relative;
+            margin-left: 100px;
+            margin-right: 95px;
+            transition: transform 0.3s ease;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            transform: translateY(-5px);
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+       
+
+        .text{
+            justify-content: center;
+            align-items: center; 
+            margin-left: 300px ;
+            font-size: 4em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .image {
+            display: flex;
+            margin-left: -20px;
+            justify-content: space-between;
+            align-items: center;
+            gap: 300px;
+          
+        }
+
+        .image img {
+
+            width: 500px;
+            height: 450px;
+            border-radius: 10px;
+            margin: 0 20px;
+            margin-left: -200px;
+            position: relative;
+
+        
+        }
+
+        .image2 {
+            display: flex;
+            margin-left: -20px;
+            justify-content: space-between;
+            align-items: center;
+            gap: 300px;
+          
+        }
+
+        .image2 img {
+
+            width: 500px;
+            height: 450px;
+            border-radius: 10px;
+            margin: 0 20px;
+            margin-left: -200px;
+            position: relative;
+
+        
+        }
+
+        .image3 {
+            display: flex;
+            margin-left: -20px;
+            justify-content: space-between;
+            align-items: center;
+            gap: 300px;
+          
+        }
+
+        .image3 img {
+
+            width: 500px;
+            height: 450px;
+            border-radius: 10px;
+            margin: 0 20px;
+            margin-left: -200px;
+            position: relative;
+
+        
+        }
+
+        .image4 {
+            display: flex;
+            margin-left: -20px;
+            justify-content: space-between;
+            align-items: center;
+            gap: 300px;
+          
+        }
+
+        .image4 img {
+
+            width: 500px;
+            height: 450px;
+            border-radius: 10px;
+            margin: 0 20px;
+            margin-left: -200px;
+            position: relative;
+
+        
+        }
+
+        .image, .image2, .image3, .image4 {
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+        margin-left: 200px;
+        }
+
+    
+
+        footer {
+            background-color: #000a2a;
+            text-align: center;
+            padding: 1px;
+            position: relative;
+            color: white;
+            margin-top: 10px;
+        }
+
+
+
+        figure figcaption{
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .image figure:hover, .image2 figure:hover, .image3 figure:hover, .image4 figure:hover {
+             transform: scale(1.1); 
+             transition: transform 0.3s ease;
+  
+        }
+        
+
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <img src="../img/lua.gif">
+        <h1 class="title">Museu</h1>
+    </header>
+
+    <nav>
+        <a href="biografia.html">Biografia</a>
+        <a href="trabalhos.html">Trabalhos</a>
+        <a href="../index.html">Início</a>
+        <a href="curiosidades.html">Curiosidades</a>
+    </nav>
+
+    <main>
+        <section >
+           <div>
+            <h2 class="text">Pinturas de Van Gogh</h2>
+           </div>
+        </section>
+        <!---->
+        <section >
+            
+            <div class="image">
+                <figure class="img1">
+                    <a href="noite-estrelada.html">
+                    <img src="../img/noite-estrelada.jpg">
+                </a>
+                    <figcaption >Noite estrelada</figcaption>
+                </figure>
+            
+
+                <figure class="img2">
+                    <a href="terraço.html">
+                    <img src="../img/terraço-cafe.jpeg">
+                </a>
+                    <figcaption >
+                        Terraço do Café na à Noite
+                        </figcaption>
+                </figure>
+
+                <figure >
+                    <a href="quarto.html">
+                    <img src="../img/quarto.jpeg">
+                </a>
+                    <figcaption>O Quarto de Van Gogh em Arles</figcaption>
+                </figure>
+            </div>
+
+            <!---->
+            <div class="image2">
+                <figure >
+                    <a href="amendoa.html">
+                    <img src="../img/amendoeira.jpeg">
+                </a>
+                    <figcaption>
+                        Amendoeira em Flor
+                        </figcaption>
+                </figure>
+
+                <figure>
+                    <a href="retrato.html">
+                    <img src="../img/auto-retrato.jpeg">
+                </a>
+                    <figcaption>
+                        Auto-Retrato
+                        </figcaption>
+                </figure>
+
+                <figure >
+                    <a href="campo.html">
+                    <img src="../img/campo-trigo.jpeg">
+                </a>
+                    <figcaption>Campo de trigo com ciprestes</figcaption>
+                </figure>
+
+            </div>
+             <!---->
+
+             <div class="image3">
+                <figure >
+                    <a href="comedores.html">
+                    <img src="../img/comedores.jpeg">
+                </a>
+                    <figcaption>Os Comedores de Batata</figcaption>
+                </figure>
+
+                <figure >
+                    <a href="caveira.html">
+                    <img src="../img/caveira.jpeg">
+                </a>
+                    <figcaption>Caveira com Cigarro Aceso</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="vinha.html">
+                    <img src="../img/vinha.jpeg">
+                </a>
+                    <figcaption>A Vinha Encarnada</figcaption>
+                </figure>
+             </div>
+             <!---->
+
+             <div class="image4">
+                <figure >
+                    <a href="prisioneiro.html">
+                    <img src="../img/prisioneiro.jpg">
+                </a>
+                    <figcaption>
+                        A Ronda dos Prisioneiros
+                        </figcaption>
+                </figure>
+
+                <figure >
+                    <a href="noite-estrelada2.html">
+                    <img src="../img/noite-estrelada2.jpeg">
+                </a>
+                    <figcaption>Noite Estrelada Sobre o Ródano</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="girassol.html">
+                    <img src="../img/girassol.jpeg">
+                </a>
+                    <figcaption>Os Girassóis</figcaption>
+                </figure>
+             </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Página dedicada a Vincent Van Gogh</p>
+    </footer>
+</body>
+</html>

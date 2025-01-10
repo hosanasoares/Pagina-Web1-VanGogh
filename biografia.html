@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia de Van Gogh</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: rgb(126,219,255);
+            background: linear-gradient(90deg, rgba(126,219,255,1) 0%, rgba(0,0,17,1) 49%); 
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+        }
+
+        header img {
+            width: 100%;
+            height: 600px;
+            object-fit:cover;
+            opacity: 60%;
+           
+        }
+
+        .title {
+            position: absolute;
+            top: 200px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 200px;
+            font-weight: bold;
+            font-family: Snell Roundhand, cursive;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        
+
+        nav {
+            display: flex;
+            background-color: #000a2a;
+            padding: 10px;
+            display: flex;
+            margin-top: -5px;
+            justify-content: space-between;
+            
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding-left: -30px;
+            font-size: 1.2em;
+            position: relative;
+            margin-left: 100px;
+            margin-right: 95px;
+            transition: transform 0.3s ease;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            transform: translateY(-5px);
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .text{
+            margin-left: 500px;
+            
+        }
+
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .image {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .image img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #000a2a;
+            text-align: center;
+            padding: 1px;
+            position: relative;
+            color: white;
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <img src="../img/van-gogh.gif">
+        <h1 class="title">Biografia</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Início</a>
+        <a href="trabalhos.html">Trabalhos</a>
+        <a href="museu.html">Museu</a>
+        <a href="curiosidades.html">Curiosidades</a>
+    </nav>
+
+    <main>
+        <section id="biografia" class="section">
+            <h2 class="text">Início de sua vida</h2>
+            <div class="image">
+                <img src="../img/retrato.png" alt="Retrato de Van Gogh">
+                <p>Vincent Willem van Gogh nasceu em 30 de março de 1853, na cidade de Zundert, na Holanda, em uma família religiosa e de classe média. Seu pai, Theodorus van Gogh, era pastor protestante, e sua mãe, Anna Cornelia, era dona de casa. Vincent tinha dois irmãos e três irmãs, sendo que o irmão mais novo, Theo, se tornaria uma figura crucial em sua vida, tanto pessoalmente quanto profissionalmente.</p>
+            </div>
+        </section>
+
+        <section id="trabalhos" class="section">
+            <h2>Primeiros Anos e Carreira Inicial</h2>
+            <p>Desde jovem, Van Gogh demonstrava interesse pela arte, mas sua vida profissional começou de forma errática. Inicialmente, trabalhou como vendedor de arte na cidade de Haia e, posteriormente, em Londres, mas não se encontrou nesse caminho. Depois de tentar várias outras profissões, incluindo professor e missionário, Van Gogh finalmente decidiu seguir seu verdadeiro chamado: a pintura.
+                Seu interesse pela arte floresceu mais tarde, e ele começou a estudar pintura de forma autodidata em 1879, quando se mudou para Bruxelas. Durante essa fase, ele se dedicou intensamente ao desenho, desenvolvendo suas habilidades antes de finalmente estudar na Academia Real de Belas Artes de Antuérpia.</p>
+        </section>
+
+        <section id="vida" class="section">
+            <h2>Fase em Paris e o Impressionismo</h2>
+            <p>Em 1886, Van Gogh mudou-se para Paris para morar com seu irmão Theo, que trabalhava como comerciante de arte. Em Paris, Van Gogh entrou em contato com os impressionistas e pós-impressionistas, cujas técnicas e uso de cores vibrantes tiveram grande influência sobre sua própria obra. Ele desenvolveu uma paleta de cores mais intensa e começou a aplicar pinceladas mais expressivas, distantes do estilo sombrio e realista que havia dominado sua obra inicial.
+                Durante sua estadia em Paris, Van Gogh fez amizade com outros artistas, como Paul Gauguin, e experimentou uma variedade de estilos, do ponto de vista das cores e das formas. No entanto, a vida em Paris não trouxe paz a sua mente turbulenta. Ele lutava com questões de saúde mental, e o ambiente da cidade grande parecia agravar seu sofrimento.</p>
+        </section>
+
+        <section id="viagem" class="section">
+            <h2>Arles: A Produção Mais Prolífica</h2>
+            <p>Em 1888, Van Gogh se mudou para Arles, uma pequena cidade no sul da França, onde passou a maior parte de seus anos produtivos. Neste período, ele pintou algumas de suas obras mais conhecidas, como "Os Girassóis", "O Quarto de Van Gogh em Arles" e "A Noite Estrelada". Van Gogh buscava paz e isolamento em Arles, mas, ao mesmo tempo, ansiava por uma comunidade artística. Ele convidou Paul Gauguin para morar com ele, mas a convivência entre os dois artistas foi conturbada. Em uma discussão, Van Gogh, em um surto de raiva, cortou parte de sua orelha esquerda, um incidente que se tornou um dos episódios mais trágicos de sua vida.</p>
+        </section>
+
+        <section id="morte" class="section">
+            <h2>Últimos Anos e Morte</h2>
+            <P>Após o incidente com Gauguin, Van Gogh foi internado em um hospital psiquiátrico em Saint-Rémy-de-Provence, onde continuou a pintar, produzindo algumas de suas obras mais conhecidas, como "A Noite Estrelada" e "A Vinha Encarnada". Durante esse período, sua saúde mental continuou a piorar, e ele lutava contra alucinações e episódios de depressão profunda.
+                Em julho de 1890, Van Gogh deixou o hospital e se mudou para Auvers-sur-Oise, uma pequena cidade próxima a Paris, onde foi supervisionado por seu médico, Paul Gachet. Foi em Auvers-sur-Oise que ele pintou algumas de suas últimas obras, incluindo "Campo de Trigo com Corvos" e "Retrato de Dr. Gachet". Em 29 de julho de 1890, aos 37 anos, Van Gogh morreu de um ferimento à bala, um provável suicídio. Sua morte foi prematura, mas seu legado artístico teria um impacto profundo no futuro da arte.</P>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Página dedicada a Vincent Van Gogh</p>
+    </footer>
+</body>
+</html>

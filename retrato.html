@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Van Gogh</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: rgb(5,4,41);
+            background: linear-gradient(90deg, rgba(5,4,41,1) 26%, rgba(4,39,77,1) 51%, rgba(255,247,141,1) 100%); 
+            
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            
+        }
+
+        header img {
+            width: 100%;
+            height: 150px;
+            object-fit:cover;
+            opacity: 50%;
+           
+        }
+
+        .title {
+            position: absolute;
+            top:-15px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 150px;
+            font-weight: bold;
+            font-family: Snell Roundhand, cursive;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        
+
+        nav {
+            display: flex;
+            background-color: #000a2a;
+            padding: 10px;
+            display: flex;
+            margin-top: -5px;
+            justify-content: space-between;
+            
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding-left: -30px;
+            font-size: 1.2em;
+            position: relative;
+            margin-left: 100px;
+            margin-right: 95px;
+            transition: transform 0.3s ease;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            transform: translateY(-5px);
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            
+        }
+
+        .subtitle {
+            font-size: 2em;
+            margin-bottom: 10px;
+            margin-left: 60px;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .paragrafo {
+            font-size: 1.2em;
+            line-height: 1.8;
+            text-align: justify;
+            max-width: 70%;
+           margin-left: -200px;
+        }
+
+        .imagem{
+            width:500px;
+            height: 60%;
+            border-radius: 10px;
+            margin-left: 800px;
+            margin-top: -530px;
+            position: absolute;
+        }
+
+        .image {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .image img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #000a2a;
+            text-align: center;
+            padding: 1px;
+            position: relative;
+            color: white;
+            margin-top: 90px;
+        }
+    </style>
+</head>
+<body>
+   
+    <header>
+        <img src="../img/auto-retrato.jpeg">
+        <h1 class="title">Auto-Retrato</h1>
+    </header>
+
+    <nav>
+        <a href="biografia.html">Biografia</a>
+        <a href="trabalhos.html">Trabalhos</a>
+        <a href="museu.html">Museu</a>
+        <a href="curiosidades.html">Curiosidades</a>
+    </nav>
+
+    <main>
+       <section>
+        <h2 class="subtitle">Contexto de criação</h2>
+        <p class="paragrafo">O Auto-retrato de Vincent van Gogh, pintado em 1889, é uma das obras mais pessoais e expressivas do pintor. Criado enquanto Van Gogh estava em um asilo em Saint-Rémy-de-Provence, este retrato reflete não apenas sua aparência física, mas também um profundo estado emocional, em um momento de grande instabilidade psicológica.
+            Na obra, o artista se apresenta com uma expressão introspectiva e um olhar penetrante. Ele utiliza cores intensas e pinceladas características de seu estilo, com tons de verde, azul e marrom dominando a paleta. A escolha das cores e a forma como ele usa o pincel para criar texturas visíveis refletem a intensidade emocional do momento, ao mesmo tempo em que capturam sua vulnerabilidade e complexidade interna.
+            Este Auto-retrato faz parte de uma série de autorretratos que Van Gogh pintou durante sua vida, uma forma de se estudar e entender a si mesmo. A obra não é apenas um retrato físico, mas uma manifestação de sua luta interna e de sua busca por identidade e compreensão. O quadro permanece como um dos mais emblemáticos exemplos da maneira única de Van Gogh lidar com a pintura como uma forma de expressão pessoal. Atualmente, a obra está na coleção da Galeria Nacional de Arte, em Washington.
+            </p>
+        <img src="../img/auto-retrato.jpeg" class="imagem">
+        </section> 
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Página dedicada a Vincent Van Gogh</p>
+    </footer>
+</body>
+</html>

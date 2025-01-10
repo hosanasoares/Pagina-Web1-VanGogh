@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Van Gogh</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: rgb(5,4,41);
+            background: linear-gradient(90deg, rgba(5,4,41,1) 26%, rgba(4,39,77,1) 51%, rgba(255,247,141,1) 100%); 
+            
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            
+        }
+
+        header img {
+            width: 100%;
+            height: 150px;
+            object-fit:cover;
+            opacity: 50%;
+           
+        }
+
+        .title {
+            position: absolute;
+            top:30px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 105px;
+            font-weight: bold;
+            font-family: Snell Roundhand, cursive;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        
+
+        nav {
+            display: flex;
+            background-color: #000a2a;
+            padding: 10px;
+            display: flex;
+            margin-top: -5px;
+            justify-content: space-between;
+            
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding-left: -30px;
+            font-size: 1.2em;
+            position: relative;
+            margin-left: 100px;
+            margin-right: 95px;
+            transition: transform 0.3s ease;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            transform: translateY(-5px);
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            
+        }
+
+        .subtitle {
+            font-size: 2em;
+            margin-bottom: 10px;
+            margin-left: 60px;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .paragrafo {
+            font-size: 1.2em;
+            line-height: 1.8;
+            text-align: justify;
+            max-width: 70%;
+           margin-left: -200px;
+        }
+
+        .imagem{
+            width:550px;
+            height: 60%;
+            border-radius: 10px;
+            margin-left: 800px;
+            margin-top: -500px;
+            position: absolute;
+        }
+
+        .image {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .image img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #000a2a;
+            text-align: center;
+            padding: 1px;
+            position: relative;
+            color: white;
+            margin-top: 90px;
+        }
+    </style>
+</head>
+<body>
+   
+    <header>
+        <img src="../img/quarto.jpeg">
+        <h1 class="title">O Qaurto em Arles</h1>
+    </header>
+
+    <nav>
+        <a href="biografia.html">Biografia</a>
+        <a href="trabalhos.html">Trabalhos</a>
+        <a href="museu.html">Museu</a>
+        <a href="curiosidades.html">Curiosidades</a>
+    </nav>
+
+    <main>
+       <section>
+        <h2 class="subtitle">Contexto de criação</h2>
+        <p class="paragrafo">A pintura "O Quarto de Van Gogh em Arles", criada em 1888, retrata o interior do quarto do artista na "Casa Amarela", em Arles, cidade no sul da França. Este quadro é uma das representações mais conhecidas do ambiente pessoal de Van Gogh e reflete sua busca por tranquilidade e ordem em um momento de sua vida marcado por dificuldades emocionais.
+            A cena é caracterizada por cores vibrantes e contrastantes, como o amarelo e o azul, que criam uma sensação de calor e acolhimento, mas também uma tensão visual. A perspectiva e os ângulos distorcidos, típicos do estilo de Van Gogh, conferem uma sensação de irrealidade ao ambiente, sugerindo um estado psicológico inquieto. O mobiliário simples e as paredes com pouca decoração destacam o minimalismo e a busca do artista por uma vida mais equilibrada e calma.
+            "O Quarto de Van Gogh em Arles" é uma obra que reflete não apenas a vida cotidiana do pintor, mas também suas emoções e necessidades interiores. A pintura foi feita enquanto Van Gogh se preparava para a chegada de seu amigo Paul Gauguin, e o ambiente acolhedor, mas também algo surreal, é um reflexo da complexidade da mente do artista. Esta obra está atualmente no Museu Van Gogh, em Amsterdã, e é um dos ícones mais reconhecíveis de sua produção artística.
+            </p>
+        <img src="../img/quarto.jpeg" class="imagem">
+        </section> 
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Página dedicada a Vincent Van Gogh</p>
+    </footer>
+</body>
+</html>
